@@ -1,17 +1,17 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
+  text1: "He luu!",
+  text2: "Ngồi rảnh rỗi nên tớ có làm màu ra được cái này (づ｡◕‿‿◕｡)づ",
+  text3: "Chúc cậu national gf day vui vẻee",
+  text4: "Ogee thế giờ cậu có muốn nói gì nữa khum",
+  text5: "Làm màu vl :vvvv",
+  text6: "Có chứ, tớ thích cậu lắm áaa",
+  text7: "Hi! tớ biết mà, còn gì nữa khummm",
   text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text9: "C đẹp try vlllll",
+  text10: "Tớ cũng biết mà ^^ Yêu cậu 300.000",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
-  text12: "Okii lunn <3",
+    "Xin lỗi dạo này tớ có hơi bị sợ làm phiền c nên k nhắn tin cho c nhiều lắm... Nhưng mà tớ vẫn thích c nhiềuuuu lắm nên là hôm đi hội thảo có gì để tớ bao ăn chuộc lỗi cho nhéee :>",
+  text12: "Okii <3",
 };
 
 $(document).ready(function () {
@@ -58,7 +58,7 @@ $(document).ready(function () {
     $("#yes").css("left", leftNo);
     $("#yes").css("top", topNO);
   }
-  // move random button póition
+  // move random button position
   function moveButton() {
     var audio = new Audio("sound/Swish1.mp3");
     audio.play();
@@ -136,10 +136,7 @@ $(document).ready(function () {
           background: '#fff url("img/iput-bg.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
-          confirmButtonColor: "#83d0c9",
-          onClose: () => {
-            window.location = "http://fb.com";
-          },
+          confirmButtonColor: "#83d0c9",          
         });
       }
     });
